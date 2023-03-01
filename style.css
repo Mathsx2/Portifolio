@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    background-color:#1c1c21;
+    color: #BFBFBF;
+    font-family: Raleway,Lucida Grande,Helvetica,sans-serif;
+}
+
+/*TODA BARRA*/
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+/*BARRA MAIOR*/
+body::-webkit-scrollbar-track {
+    background: #1e1e1e;
+    border-radius: 10px;
+}
+
+/*BARRA MENOR*/
+body::-webkit-scrollbar-thumb {
+    background: #3c3c3c;
+    border-radius: 10px;
+}
+
+/*HEADER*/
+header {
+    background-color: #16161a;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    justify-content: center ;
+    align-content: center;
+    padding: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header a:hover {
+    padding-bottom: 5px;
+    border-bottom: solid 5px #BFBFBF;
+}
+
+a {
+    text-decoration: none;
+    color: #BFBFBF;
+    
+}
+
+/*INICNIO*/
+.ini{
+    padding: 50px;
+    line-height: 1.8;
+    font-size: 30px;    
+}
+
+/*SOBRE MIM*/
+.Sobre-Mim img {
+    margin-left: 850px;
+    margin-top: -350px;
+    display: flex;
+    width: 400px;
+}
+
+.Sobre-Mim {
+    padding: 50px;
+}
+
+.Sobre-Mim p {
+    width: 500px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*PROJETOS*/
+.projetos {
+    padding: 50px;
+}
+
+.caixas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.caixas h3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.projeto1 {
+    width: 250px;
+    height: 90px;
+    background-color: #16161a;
+    border-radius: 20px 40px;
+    margin: 10px
+}
+
+.projeto2 {
+    width: 250px;
+    height: 90px;
+    background-color: #16161a;
+    border-radius: 20px 40px;
+    margin: 10px
+}
+
+.projeto3 {
+    width: 250px;
+    height: 90px;
+    background-color: #16161a;
+    border-radius: 20px 40px;
+    margin: 10px;
+}
+
+.projeto1 h3 {
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.projeto2 h3 {
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.projeto3 h3 {
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.projetos h3 {
+    animation: digitando .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    Width: 9.7ch;
+}
+
+@keyframes digitando {
+    50% { 
+      border-color: transparent;
+    }
+}
+
+/*CONTATOS*/    
+.ctt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Contatos {
+    padding: 50px;
+}
+
+.ctt2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*ICONS*/
+a {
+    display: flex;
+    align-items: center;
+}
+
+.insta img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.git img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.link img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+
+/*RESPONSIVIDADE*/
+@media (max-width: 1120px) {
+    .Sobre-Mim img {
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        width: 100%;
+    }
+    .Sobre-Mim p {
+        width: 100%;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .caixas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .ctt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 680px) {
+    .Sobre-Mim img {
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        width: 100%;
+    }
+    .Sobre-Mim p {
+        width: 100%;
+        font-size: 20px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 500px) {
+    .Sobre-Mim img {
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        width: 100%;
+    }
+    .Sobre-Mim p {
+        width: 100%;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .ini{
+    padding: 50px;
+    line-height: 1.8;
+    font-size: 30px; 
+      
+    }
+    .caixas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        align-content: space-around;
+    }
+}
