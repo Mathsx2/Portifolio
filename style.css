@@ -114,14 +114,7 @@ a {
     margin: 10px;
 }
 
-.projeto1 h3 {
-    margin-left: 65px;
-    margin-top: 30px;
-}
-.projeto2 h3 {
-    margin-left: 65px;
-    margin-top: 30px;
-}
+
 .projeto3 h3 {
     margin-left: 65px;
     margin-top: 30px;
@@ -200,6 +193,7 @@ a {
         flex-direction: column;
         align-content: space-around;
     }
+
     .ctt{
         display: flex;
         flex-direction: column;
@@ -272,7 +266,7 @@ a {
 }
 
     .projeto1 img {
-        width:300px;
+        width:350px;
         -moz-transition: all 0.3s;
         -webkit-transition: all 0.3s;
         transition: all 0.3s;
@@ -285,13 +279,91 @@ a {
     }
 
     .projeto2 img {
-        width:300px;
+        width:350px;
         -moz-transition: all 0.3s;
         -webkit-transition: all 0.3s;
         transition: all 0.3s;
     }
     
     .projeto2:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .projeto3 h3 {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .projeto3:hover h3 {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .insta img{
+        transition: all 1s;
+        cursor: pointer;
+    }
+    
+    .insta:hover img {
+        -webkit-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+    }
+
+    .insta a {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .insta:hover a {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .git img {
+        transition: all 1s;
+        cursor: pointer;
+    }
+
+    .git a {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .git:hover a {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    
+    .git:hover img{
+        -webkit-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+    }
+
+    .link img {
+        transition: all 1s;
+        cursor: pointer;
+    }
+    
+    .link:hover img {
+        -webkit-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+    }
+
+    .link a {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .link:hover a {
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
